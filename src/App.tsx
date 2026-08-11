@@ -3,36 +3,47 @@ const skills = [
   'Java',
   'PHP',
   'JavaScript',
+  'Electron',
   'React',
   'TypeScript',
+  'Dart',
+  'Flutter',
   'jQuery',
   'WordPress',
 ]
 
 const projects = [
   {
-    name: 'Headless WordPress Project Hub',
-    type: 'React + WordPress REST API',
+    name: 'NightTube',
+    type: 'Transit UX + live service design',
     accent: 'bg-citron',
     description:
-      'A fast front end designed around WordPress as the editorial source of truth, with REST-shaped content, reusable React sections, and deployment-ready static output.',
-    stack: ['React', 'TypeScript', 'WordPress', 'PHP'],
+      'A late-night transport experience focused on clear route guidance, service status, and commuter confidence when the network is quieter and the stakes feel higher.',
+    stack: ['React', 'TypeScript', 'Node.js', 'Maps'],
   },
   {
-    name: 'Java Workflow Console',
-    type: 'Full-stack systems thinking',
+    name: 'Air Force Base Ops Console',
+    type: 'Electron + JavaScript desktop product',
     accent: 'bg-coral',
     description:
-      'A developer dashboard concept for tracking service events, parsing edge cases, and keeping data states obvious before they turn into bugs.',
-    stack: ['Java', 'TypeScript', 'React'],
+      'A mission-support desktop dashboard for an air force base, designed to surface shift updates, equipment readiness, and operational priorities in a calm, high-pressure interface.',
+    stack: ['Electron', 'JavaScript', 'Node.js', 'UI Design'],
   },
   {
-    name: 'Python Signal Lab',
-    type: 'Automation + data tooling',
+    name: 'Quiz App',
+    type: 'Training + retention experience',
     accent: 'bg-aqua',
     description:
-      'A compact automation story: Python scripts clean data, React explains the flow, and the UI leaves a clear audit trail for real people.',
-    stack: ['Python', 'JavaScript', 'Tailwind'],
+      'A fast quiz product for learning checks and recap sessions, with progress tracking, scoring feedback, and a clean flow that helps knowledge stick.',
+    stack: ['JavaScript', 'React', 'Tailwind', 'Accessibility'],
+  },
+  {
+    name: 'Emergency Worker Social App',
+    type: 'Flutter + Dart community product',
+    accent: 'bg-citron',
+    description:
+      'A supportive social app for emergency workers to share updates, check in with teams, and access community-led guidance in a structured, low-friction interface.',
+    stack: ['Dart', 'Flutter', 'Firebase', 'UX'],
   },
 ]
 
