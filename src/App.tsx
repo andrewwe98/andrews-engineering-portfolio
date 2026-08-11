@@ -15,11 +15,11 @@ const skills = [
 const projects = [
   {
     name: 'NightTube',
-    type: 'Transit UX + live service design',
+    type: 'YouTube clone + saved video library',
     accent: 'bg-citron',
     description:
-      'A late-night transport experience focused on clear route guidance, service status, and commuter confidence when the network is quieter and the stakes feel higher.',
-    stack: ['React', 'TypeScript', 'Node.js', 'Maps'],
+      'A YouTube-inspired platform where users can watch, save, and revisit videos, sign in with authentication, and stream content from any YouTube source in a responsive mobile and tablet-friendly experience.',
+    stack: ['React', 'TypeScript', 'Node.js', 'Auth', 'YouTube API'],
   },
   {
     name: 'Air Force Base Ops Console',
@@ -158,7 +158,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid gap-5 lg:grid-cols-3">
+          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {projects.map((project) => (
               <article
                 className="group border-2 border-ink bg-paper p-5 shadow-sharp transition duration-300 hover:-translate-y-2"
