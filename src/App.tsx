@@ -106,7 +106,7 @@ function App() {
               </a>
               <a
                 className="border-2 border-ink bg-paper px-5 py-3 font-mono text-sm uppercase shadow-sharp transition hover:-translate-y-1"
-                href="mailto:hello@example.com"
+                href="mailto:andrewwe98@gmail.com"
               >
                 Email me
               </a>
@@ -233,9 +233,9 @@ function App() {
             </p>
             <a
               className="mt-8 inline-block border-2 border-ink bg-paper px-5 py-3 font-mono text-sm uppercase shadow-sharp transition hover:-translate-y-1"
-              href="mailto:hello@example.com"
+              href="mailto:andrewwe98@gmail.com"
             >
-              hello@example.com
+              andrewwe98@gmail.com
             </a>
           </div>
         </div>
